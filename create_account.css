@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  margin-top: 75px;
+}
+
+.create-account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 86px 50px;
+}
+
+.login-details-showpassword {
+  display: flex;
+  gap: 10px;
+}
+
+.checkbox {
+  height: 20px;
+  width: 20px;
+}
+
+.create-account-heading h1 {
+  color: #0c1c33;
+  padding: 20px 0px;
+  font-size: 45px;
+  text-align: center;
+}
+
+.create-account input {
+  height: 50px;
+  width: 500px;
+  text-align: start;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.create-account-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.create-account {
+  color: #495566;
+  border: #495566;
+}
+
+.create-account-details-2 button {
+  margin-top: 20px;
+  padding: 13px 30px;
+  background-color: #0c1c33;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+}
+
+.create-account-details-showpassword {
+  display: flex;
+  gap: 10px;
+}
+.create-account-details-showpassword input {
+  height: 20px;
+  width: 20px;
+}
+
+.create-account-details form span{
+  padding-top: 10px;
+  color: red;
+  display: none;
+}

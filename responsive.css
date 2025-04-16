@@ -1,0 +1,1431 @@
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1400px) {
+  /* .social > .btn {
+    display: block;
+  } */
+  .section-8 .founder-image {
+    width: 600px;
+    height: 600px;
+  }
+  .our-story-section-6 .founder-image {
+    width: 600px;
+    height: 600px;
+  }
+
+  .section-8 .layers-info {
+    width: 600px;
+    height: 600px;
+  }
+  .our-story-section-6 .layers-info {
+    width: 600px;
+    height: 600px;
+  }
+  .section-9-watch img {
+    height: 180px;
+  }
+  .section-9-watch-color {
+    gap: 60px;
+  }
+  .section-9-watch-buy {
+    padding-bottom: 25px;
+  }
+
+  #strap-size a {
+    height: 500px;
+    width: 300px;
+  }
+
+  .anarc-watch-left {
+    width: 65%;
+  }
+  .anarc-watch-right {
+    width: 35%;
+  }
+
+  .watch-info-scroll ul {
+    gap: 100px;
+  }
+
+  .section-3-anarc-watch img {
+    height: 100px;
+  }
+
+  .section-3-anarc-watch {
+    width: 65%;
+    padding-left: 125px;
+    padding-right: 25px;
+  }
+  .section-11-anarc-watch {
+    width: 65%;
+  }
+  .section-12-anarc-watch {
+    width: 65%;
+  }
+
+  .section-1-skin-left {
+    width: 40%;
+  }
+  .section-1-skin-right {
+    width: 60%;
+  }
+  .section-1-skin-right-design-top-images,
+  .section-1-skin-right-design-bottom-images {
+    gap: 30px;
+  }
+
+  .section-6-skin-specifications-1 {
+    gap: 400px;
+  }
+
+  .section-6-skin-specifications-2 {
+    gap: 230px;
+  }
+
+  .section-6-skin-specifications-3 {
+    gap: 60px;
+  }
+
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+  nav ul li a {
+    font-size: 25px;
+    gap: 40px;
+  }
+
+  .search-icon {
+    display: none;
+  }
+
+  .sec-1-right {
+    width: 80vh;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .watch-video-1 {
+    display: none;
+  }
+
+  .section-8 .founder-image {
+    width: 495px;
+    height: 495px;
+  }
+  .our-story-section-6 .founder-image {
+    width: 495px;
+    height: 495px;
+  }
+
+  .section-8 .layers-info {
+    width: 495px;
+    height: 495px;
+  }
+  .our-story-section-6 .layers-info {
+    width: 495px;
+    height: 495px;
+  }
+
+  .layers-info > h1 {
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+  }
+
+  .layers-info > p {
+    width: 80%;
+    font-size: 20px;
+    padding: 20px 50px;
+    padding-right: 50px;
+  }
+
+  .our-story-section-2 h1 {
+    font-size: 70px;
+  }
+  #strap-size a {
+    height: 445px;
+    width: 245px;
+  }
+
+  .anarc-watch-left {
+    width: 55%;
+  }
+  .anarc-watch-right {
+    width: 45%;
+  }
+
+  .watch-info-scroll ul {
+    gap: 10px;
+  }
+
+  .section-3-heading {
+    font-size: 35px;
+  }
+
+  .section-3-heading-bottom {
+    font-size: 20px;
+  }
+
+  .section-3-anarc-watch img {
+    height: 70px;
+  }
+
+  .section-3-anarc-watch {
+    width: 55%;
+    padding-left: 25px;
+  }
+
+  .section-4-anarc-watch {
+    width: 55%;
+    padding-left: 25px;
+  }
+  .section-4-anarc-watch-left {
+    width: 70%;
+  }
+
+  .section-4-anarc-watch-right {
+    width: 30%;
+  }
+
+  .section-4-anarc-watch-right img {
+    height: 250px;
+    margin-top: 120px;
+  }
+
+  .section-5-anarc-watch-bg-image > h1 {
+    padding-left: 50px;
+  }
+
+  .section-5-anarc-watch-bg-image > p {
+    padding-left: 50px;
+  }
+
+  .section-6-anarc-watch {
+    width: 55%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .section-6-anarc-watch-upper-left h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 50px;
+  }
+
+  .section-6-anarc-watch-upper {
+    gap: 5px;
+  }
+
+  .section-6-anarc-watch-bottom img {
+    height: 300px;
+    padding-left: 25px;
+  }
+
+  .section-6-anarc-watch-upper-left p {
+    font-size: 15px;
+    padding-top: 15px;
+  }
+
+  .section-6-anarc-watch-upper-right p {
+    font-size: 15px;
+  }
+
+  .section-8-anarc-watch {
+    width: 55%;
+  }
+
+  .section-8-anarc-watch-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .section-8-anarc-watch-top h1 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .section-8-anarc-watch-bottom img {
+    height: 250px;
+  }
+
+  .section-11-anarc-watch {
+    width: 55%;
+  }
+
+  .section-11-anarc-watch-right img {
+    height: 500px;
+  }
+
+  .section-12-anarc-watch {
+    width: 55%;
+  }
+
+  .section-1-skin-right-design-top-images img,
+  .section-1-skin-right-design-bottom-images img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .section-1-skin-right-design-top-images,
+  .section-1-skin-right-design-bottom-images {
+    gap: 20px;
+  }
+
+  .section-2-skin-left h1,
+  .section-3-skin-left h1,
+  .section-4-skin-left h1,
+  .section-5-skin-left h1 {
+    /* width: 50%; */
+    font-size: 40px;
+  }
+
+  .section-6-skin-specifications-1 {
+    gap: 300px;
+  }
+
+  .section-6-skin-specifications-2 {
+    gap: 130px;
+  }
+
+  .section-6-skin-specifications-3 {
+    gap: 50px;
+  }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 992px) {
+
+  nav ul {
+    display: none;
+  }
+
+  .btn {
+    display: block;
+  }
+
+  .bars {
+    display: block;
+  }
+
+  #checkbtn:checked ~ .links {
+    display: block;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    background-color: #0c1c33;
+
+  }
+
+  .links li a span {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
+
+  .social-li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .search-icon-li,
+  .profile-icon-li,
+  .shopping-cart-li {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .links li {
+    margin: 50px auto;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .sec-1-right {
+    width: 60vh;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .sec-1-left h1 {
+    font-size: 40px;
+  }
+
+  .watch-video-3 {
+    display: none;
+  }
+
+  .section-8 .founder-image {
+    width: 385px;
+    height: 385px;
+  }
+  .our-story-section-6 .founder-image {
+    width: 385px;
+    height: 385px;
+  }
+
+  .section-8 .layers-info {
+    width: 385px;
+    height: 385px;
+  }
+  .our-story-section-6 .layers-info {
+    width: 385px;
+    height: 385px;
+  }
+
+  .layers-info > h1 {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+  }
+
+  .layers-info > p {
+    width: 80%;
+    font-size: 15px;
+    padding: 20px 50px;
+    padding-right: 40px;
+  }
+
+  .section-9-heading h1 {
+    font-size: 40px;
+  }
+
+  .footer-left {
+    display: none;
+  }
+
+  .our-story-section-2 h1 {
+    font-size: 60px;
+  }
+
+  .our-story-section-4-image img {
+    margin-top: 100px;
+    height: 300px;
+    width: 400px;
+  }
+
+  .our-story-section-5-left {
+    font-size: 20px;
+  }
+
+  .our-story-section-5-right img {
+    height: 120px;
+    width: 300px;
+  }
+
+  #strap-size a {
+    height: 500px;
+    width: 300px;
+  }
+
+  .watch-image img {
+    margin-top: 150px;
+  }
+
+  .watch-info-scroll {
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .watch-info-scroll ul {
+    justify-content: space-evenly;
+  }
+
+  .anarc-watch-left {
+    width: 55%;
+  }
+  .anarc-watch-right {
+    width: 45%;
+  }
+
+  /* by chtgpt */
+
+  .section-2-anarc-watch,
+  .section-3-anarc-watch,
+  .section-4-anarc-watch,
+  .section-5-anarc-watch,
+  .section-6-anarc-watch,
+  .section-7-anarc-watch,
+  .section-8-anarc-watch,
+  .section-9-anarc-watch,
+  .section-11-anarc-watch,
+  .section-12-anarc-watch {
+    width: 100%; /* Make sections full width */
+    /* display: block; Ensure they stack vertically */
+    /* margin: 0 auto; Center them if needed */
+  }
+
+  .anarc-watch-right {
+    position: relative;
+    height: auto; /* Allow it to adjust height dynamically */
+    margin: 0 auto; /* Optional: Center the content */
+    /* width: 100%; Optional: Take full width if needed */
+    /* padding: 1em; Add some padding for better spacing */
+  }
+
+  /* finish by chatgpt */
+
+  .section-3-anarc-watch img {
+    height: 200px;
+    padding: 10px;
+  }
+
+  .section-3-watch-images-upper {
+    flex-wrap: wrap;
+  }
+
+  .section-3-watch-images-bottom {
+    flex-wrap: wrap;
+  }
+
+  .section-3-heading {
+    font-size: 50px;
+  }
+
+  .section-3-heading,
+  .section-3-heading-bottom,
+  .section-3-heading-bottom {
+    padding-left: 25px;
+  }
+
+  .mask-group-images {
+    padding-left: 25px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .section-3-watch-images-upper img:nth-child(7) {
+    display: none;
+  }
+
+  .section-3-watch-images-bottom img:nth-child(7) {
+    display: none;
+  }
+
+
+  .section-4-anarc-watch {
+    background-color: #0c1c33;
+    padding-left: 150px;
+    padding-right: 50px;
+  }
+
+  .section-4-anarc-watch-left {
+    width: 50%;
+  }
+
+  .section-4-anarc-watch-right img {
+    height: 420px;
+  }
+
+  .section-6-anarc-watch-upper-left h1 {
+    font-size: 40px;
+  }
+
+  .section-6-anarc-watch-upper-left p {
+    font-size: 15px;
+  }
+
+  .section-6-anarc-watch-upper-right p {
+    font-size: 15px;
+  }
+
+  .section-8-anarc-watch-top h1 {
+    font-size: 50px;
+  }
+
+  .section-8-anarc-watch-top p {
+    font-size: 20px;
+  }
+
+  .section-8-anarc-watch-bottom img {
+    height: 320px;
+  }
+
+  .section-1-skin {
+    flex-wrap: wrap;
+  }
+
+  .section-1-skin-left,
+  .section-1-skin-right {
+    flex: 100%;
+  }
+
+  .section-1-skin-right-design-top-images img,
+  .section-1-skin-right-design-bottom-images img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+  .section-1-skin-right-design-top-images,
+  .section-1-skin-right-design-bottom-images {
+    gap: 15px;
+  }
+
+  .section-2-skin,
+  .section-3-skin,
+  .section-4-skin,
+  .section-5-skin {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section-2-skin-left,
+  .section-2-skin-right,
+  .section-3-skin-left,
+  .section-3-skin-right,
+  .section-4-skin-left,
+  .section-4-skin-right,
+  .section-5-skin-left,
+  .section-5-skin-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 100%;
+  }
+
+  .section-2-skin-right img,
+  .section-3-skin-right img,
+  .section-4-skin-right img,
+  .section-5-skin-right img {
+    height: 509px;
+    margin-left: 150px;
+  }
+
+  .section-6-skin-specifications-1 {
+    gap: 200px;
+  }
+
+  .section-6-skin-specifications-2 {
+    gap: 30px;
+  }
+
+  .section-6-skin-specifications-3 {
+    gap: 50px;
+  }
+
+  .section-7-skin-ship-etc {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .section-7-skin-video iframe {
+    width: 700px;
+    height: 400px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+  .profile-icon {
+    display: none;
+  }
+
+  .sec-1-right {
+    width: 50vh;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .sec-3-top h1 {
+    font-size: 35px;
+    color: #0d1d34;
+  }
+
+  .section-8 .founder-image {
+    width: 100%;
+    height: 600px;
+  }
+  .our-story-section-6 .founder-image {
+    width: 100%;
+    height: 600px;
+  }
+
+  .section-8 .layers-info {
+    width: 100%;
+    height: 600px;
+  }
+
+  .our-story-section-6 .layers-info {
+    width: 100%;
+    height: 600px;
+  }
+
+  .section-5-bg-image > h1 {
+    padding-left: 100px;
+  }
+
+  .section-5-anarc-watch-bg-image > h1 {
+    padding-left: 100px;
+  }
+
+  .section-5-bg-image > p {
+    padding-left: 100px;
+  }
+
+  .section-5-anarc-watch-bg-image > p {
+    padding-left: 100px;
+  }
+
+  .section-9-heading h1 {
+    font-size: 30px;
+  }
+
+  .section-9-watch img {
+    height: 160px;
+  }
+
+  .section-9-watch-color {
+    gap: 60px;
+  }
+
+  .anarc-watch-left {
+    width: 40%;
+  }
+  .anarc-watch-right {
+    width: 60%;
+  }
+
+  /* ----------------------------------------------------------------------------------------- */
+
+  .our-story-section-1 h1 {
+    font-size: 70px;
+  }
+
+  .our-story-section-2 h1 {
+    font-size: 40px;
+  }
+
+  .our-story-section-4-info {
+    font-size: 30px;
+  }
+
+  .our-story-section-5-left {
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+  }
+
+
+
+  .our-story-section-5 {
+    flex-wrap: wrap-reverse;
+  }
+
+  .our-story-section-5-left,
+  .our-story-section-5-right {
+    width: 100%;
+  }
+
+  .our-story-section-5-left,
+  .our-story-section-5-right img {
+    flex: 100%;
+  }
+
+  .our-story-section-5-right img {
+    margin-top: 100px;
+    height: 200px;
+    margin-left: 75px;
+  }
+
+
+
+  #strap-size a {
+    height: 450px;
+    width: 250px;
+  }
+
+  .product-count {
+    display: none;
+  }
+
+  .features {
+    margin-right: 75px;
+  }
+
+
+  .watch-image img {
+    margin-top: 50px;
+  }
+
+
+  .anarc-watch-main {
+    flex-direction: column;
+  }
+
+  .anarc-watch-left {
+    width: 100%;
+    height: auto;
+  }
+
+  .anarc-watch-right {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    height: auto;
+  }
+  .section-2-anarc-watch img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .section-3-anarc-watch img {
+    height: 170px;
+    padding: 10px;
+  }
+
+  .section-3-heading {
+    font-size: 35px;
+  }
+
+  .section-4-anarc-watch {
+    background-color: #0c1c33;
+    padding-left: 75px;
+    padding-right: 25px;
+  }
+
+  .section-4-anarc-watch-left {
+    width: 50%;
+  }
+
+  .section-4-anarc-watch-left-upper-info h1 {
+    font-size: 40px;
+  }
+
+  .section-4-anarc-watch-left-upper-info p {
+    font-size: 15px;
+  }
+
+  .section-4-anarc-watch-right img {
+    height: 310px;
+    padding-left: 35px;
+  }
+
+
+
+  .section-6-anarc-watch-upper-left h1 {
+    font-size: 50px;
+  }
+
+  .section-6-anarc-watch-upper-left p {
+    font-size: 15px;
+  }
+
+  .section-6-anarc-watch-upper-right p {
+    font-size: 20px;
+  }
+
+  .section-6-anarc-watch-upper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-6-anarc-watch-upper-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-6-anarc-watch-upper-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-6-anarc-watch-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-8-anarc-watch-bottom img {
+    height: 300px;
+  }
+
+  .section-11-anarc-watch {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+  .section-11-anarc-watch-right {
+    width: 100%;
+  }
+
+  .section-11-anarc-watch-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .customer-help > h1 {
+    font-size: 45px;
+    padding-bottom: 30px;
+  }
+
+  .customer-help-box {
+    max-width: 520px;
+    padding: 2rem;
+  }
+  .section-1-skin-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-2-skin-right img,
+  .section-3-skin-right img,
+  .section-4-skin-right img,
+  .section-5-skin-right img {
+    height: 409px;
+    margin-left: 90px;
+  }
+
+  .section-6-skin-specifications-1 {
+    gap: 100px;
+    flex-wrap: wrap;
+  }
+  .section-6-skin-specifications-3 {
+    flex-wrap: wrap;
+  }
+  .section-6-skin-specifications-2 {
+    flex-wrap: wrap;
+  }
+
+  .section-7-skin-video iframe {
+    width: 550px;
+    height: 350px;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 581px) {
+  .shopping-cart {
+    display: none;
+  }
+
+  .main {
+    background-image: url(image-assets/ban-m_2.webp);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .section-4-bg-image {
+    background-image: url(image-assets/sec-4-img-mobile-1.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-color: #0d1d34;
+  }
+
+  .section-4-bg-image:hover {
+    background-image: url(image-assets/sec-4-img-mobile-2.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-color: #0d1d34;
+  }
+
+  .section-5-bg-image,
+  .our-story-section-3,
+  .section-5-anarc-watch-bg-image {
+    background-image: url(image-assets/sec-5-img-2.webp);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+  }
+
+  .section-2-anarc-watch img {
+    background-image: url(image-assets-page-3/image.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .section-6-bg-image {
+    background-image: url(image-assets/sec-6-img-1.webp);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+  }
+
+  .section-7 > div {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .section-7 .img1 {
+    background-image: url(image-assets/image1-mobile.webp);
+  }
+  .section-7 .img2 {
+    background-image: url(image-assets/image2-mobile.webp);
+  }
+  .section-7 .img3 {
+    background-image: url(image-assets/image3-mobile.webp);
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .sec-1-right,
+  .sec-1-left {
+    flex: 100%;
+  }
+
+  .sec-2-left,
+  .sec-2-right {
+    height: 385px;
+  }
+
+  .sec-2-right,
+  .sec-2-left {
+    flex: 100%;
+  }
+
+  .sec-2-right video {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  .sec-3-top h1:first-of-type {
+    padding-top: 350px;
+  }
+
+  .watch-video-2 video {
+    width: 350px;
+  }
+
+  .section-4-bg-image h1 {
+    font-size: 40px;
+  }
+
+  .section-5-bg-image,
+  .section-5-anarc-watch-bg-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: center;
+  }
+
+  .section-5-bg-image h1 {
+    font-size: 30px;
+  }
+
+  .section-5-anarc-watch-bg-image h1 {
+    font-size: 30px;
+  }
+
+  .section-5-bg-image p {
+    font-size: 15px;
+  }
+
+  .section-5-anarc-watch-bg-image p {
+    font-size: 15px;
+  }
+
+  .section-5-bg-image > h1 {
+    padding-left: 0px;
+  }
+
+  .section-5-anarc-watch-bg-image > h1 {
+    padding-left: 0px;
+  }
+
+  .section-5-bg-image > p {
+    padding-left: 0px;
+  }
+
+  .section-5-anarc-watch-bg-image > p {
+    padding-left: 0px;
+  }
+
+  .section-6-bg-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: center;
+  }
+
+  .section-6-bg-image > h1 {
+    padding-left: 0px;
+  }
+
+  .section-6-bg-image > p {
+    padding-left: 0px;
+  }
+
+  .section-9-heading {
+    height: 100px;
+  }
+
+  .section-9-heading h1 {
+    font-size: 20px;
+  }
+
+  .section-9-watch img {
+    height: 130px;
+  }
+
+  .section-9-watch-color {
+    gap: 30px;
+  }
+
+  .footer-right {
+    display: none;
+  }
+
+  /* --------------------------------------------------------------------------------------- */
+
+  .our-story-section-1 h1 {
+    font-size: 42px;
+  }
+
+  .our-story-section-2 h1 {
+    font-size: 25px;
+  }
+
+  .our-story-section-4-image img {
+    margin-top: 100px;
+    height: 200px;
+    width: 300px;
+  }
+
+  .our-story-section-4-info {
+    font-size: 25px;
+  }
+
+  .our-story-section-5-right img {
+    margin-top: 100px;
+    height: 150px;
+    margin-left: 75px;
+  }
+
+  .filter {
+    margin-left: 0px;
+  }
+
+  .features {
+    margin-right: 20px;
+  }
+
+  .watch-info-scroll {
+    /* top: 0; */
+    margin-top: -11px;
+  }
+
+  .watch-info-scroll ul li a span {
+    font-size: 12px;
+  }
+
+  .emi img {
+    height: 35px;
+  }
+
+  .section-3-anarc-watch img {
+    height: 87px;
+    padding: 10px;
+  }
+
+  .section-3-heading {
+    font-size: 35px;
+  }
+
+  .section-4-anarc-watch {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 25px;
+  }
+
+  .section-4-anarc-watch-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-4-anarc-watch-right {
+    width: 100%;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-6-anarc-watch-upper-left h1 {
+    font-size: 40px;
+  }
+
+  .section-6-anarc-watch-upper-left p {
+    font-size: 15px;
+  }
+
+  .section-6-anarc-watch-upper-left p br {
+    display: none;
+  }
+  .section-6-anarc-watch-upper-right p {
+    font-size: 20px;
+  }
+
+  .section-6-anarc-watch-bottom img {
+    height: 200px;
+  }
+
+  .section-8-anarc-watch-top h1 {
+    font-size: 30px;
+  }
+
+  .section-8-anarc-watch-top p {
+    font-size: 15px;
+  }
+
+  .section-8-anarc-watch-bottom img {
+    height: 170px;
+  }
+
+  .section-11-anarc-watch-right img {
+    height: 478px;
+  }
+
+  .customer-help > h1 {
+    font-size: 35px;
+    padding-bottom: 30px;
+  }
+
+  .customer-help-box {
+    max-width: 520px;
+    padding: 1rem;
+  }
+
+  .customer-help-button .login {
+    background: #0c1c33;
+    padding: 4px 10px;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 2px solid #0c1c33;
+    transition: 0.2s;
+    text-align: center;
+  }
+
+  .customer-help-button .track-order {
+    background: #fff;
+    padding: 4px 10px;
+    color: #0c1c33;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 2px solid #0c1c33;
+    transition: 0.2s;
+    text-align: center;
+  }
+
+  .get-in-touch-heading2 h1 {
+    font-size: 30px;
+  }
+
+  .get-in-touch-details p {
+    font-size: 15px;
+  }
+
+  .product-type select,
+  .inquiry-type select {
+    font-size: 10px;
+    padding: 16px 0px;
+  }
+
+  .privacy-policy-main-heading {
+    font-size: 20px;
+  }
+
+  .sales-policy-main {
+    padding: 20px;
+  }
+
+  td {
+    border: 1px solid #ced2d6;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px 15px;
+  }
+
+  .terms-of-use-main-heading {
+    font-size: 14px;
+    color: #0c1c33;
+    padding: 10px 0px;
+    font-weight: bold;
+  }
+  .login-details input {
+    height: 50px;
+    width: 100%;
+    text-align: start;
+    padding-left: 10px;
+    font-weight: bold;
+  }
+
+  .login-details-2 button {
+    width: 50%;
+  }
+  .create-account input {
+    height: 50px;
+    width: 100%;
+    text-align: start;
+    padding-left: 10px;
+    font-weight: bold;
+  }
+  .create-account-details-showpassword input {
+    height: 20px;
+    width: 20px;
+  }
+
+  .create-account-heading h1 {
+    color: #0c1c33;
+    padding: 20px 0px;
+    font-size: 35px;
+  }
+  .section-1-skin-right-design-top-images img:nth-child(1) {
+    display: none;
+  }
+  .section-1-skin-right-design-top-images img:nth-child(2) {
+    display: none;
+  }
+  .section-1-skin-right-design-bottom-images img:nth-child(1) {
+    display: none;
+  }
+  .section-1-skin-right-design-bottom-images img:nth-child(2) {
+    display: none;
+  }
+
+  .section-1-skin-right-options .section-1-skin-right-brand select,
+  .section-1-skin-right-model select {
+    width: 150px;
+  }
+
+  .section-1-skin-right-cart-button button {
+    height: 45px;
+    width: 238px;
+  }
+
+  .section-1-skin-right-heading h1 {
+    color: #0c1c33;
+    font-size: 25px;
+  }
+
+  .section-1-skin {
+    padding: 0px 25px;
+  }
+
+  .section-1-skin-right {
+    padding: 0px 25px;
+  }
+
+  .section-1-skin-left img {
+    width: 100%;
+    height: 509px;
+    object-fit: cover;
+  }
+
+  .section-1-skin-right-options .section-1-skin-right-brand select,
+  .section-1-skin-right-model select {
+    width: 140px;
+    font-size: 12px;
+  }
+
+  .section-2-skin-left h1,
+  .section-3-skin-left h1,
+  .section-4-skin-left h1,
+  .section-5-skin-left h1 {
+    /* width: 50%; */
+    font-size: 30px;
+  }
+
+  .section-2-skin-left p,
+  .section-3-skin-left p,
+  .section-4-skin-left p,
+  .section-5-skin-left p {
+    font-size: 20px;
+  }
+
+  .section-2-skin-right img,
+  .section-4-skin-right img {
+    height: 290px;
+    margin-left: 0px;
+  }
+  .section-3-skin-right img,
+  .section-5-skin-right img {
+    height: 250px;
+    margin-left: 0px;
+  }
+
+  .section-7-skin-video iframe {
+    width: 250px;
+    height: 150px;
+  }
+
+  .section-7-skin-heading h1 {
+    color: #0c1c33;
+    font-size: 25px;
+  }
+
+  .term p {
+    display: block;
+  }
+
+  .footer-social-bottom {
+    display: block;
+  }
+
+  .footer-social-bottom a {
+    margin-left: 5px;
+  }
+}

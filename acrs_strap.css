@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.acrs_strap{
+    text-decoration: underline;
+  }
+
+.acrs-strap-section-1{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.acrs-strap-section-1-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acrs-strap-section-1-img img{
+    position: relative;
+    margin-top: 80px;
+    width: 100%;    
+}
+
+.acrs-strap-section-2{
+    width: 100%;
+}
+
+.acrs-strap-section-2-filter-etc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features label{
+    color: #303e51;
+}
+
+.features{
+    color: #475364;
+}
+
+.features select{
+    border: 0px;
+    background-color: #f7f7f7;
+}
+
+.features-productcount{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.filter p a{
+    text-decoration: none;
+    color: #515151;
+}
+
+.filter p a:hover{
+    text-decoration: underline;
+}
+
+.filter p{
+    margin-left: 75px;
+}
+
+.product-count p{
+    margin-right: 75px;
+    color: #525e6e;
+}
+
+.acrs-strap-section-2{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #f7f7f7;
+}
+
+.acrs-strap-section-2-filter-etc{
+    padding-top: 50px;
+    height: 50px;
+}
+
+.acrs-strap-section-2-strap-collection-part-1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.acrs-strap-section-2-strap-collection-part-1 a{
+    text-decoration: none;
+}
+
+#strap-size a{
+    height: 550px;
+    width: 350px;
+}
+
+.strap-1,.strap-2,.strap-3,.strap-4,.strap-5,.strap-6{
+    display: flex;
+    flex-direction: column;
+}
+
+.strap-1-main,.strap-2-main,.strap-3-main,.strap-4-main,.strap-5-main,.strap-6-main{
+    padding: 25px 0px;
+}
+
+.strap-1-image{
+   height: 75%;
+   background-image: url(image-assets-page-4/strap-1.webp);
+   background-position: center;
+   background-size: cover;
+}
+
+.strap-1-image:hover{
+    background-image: url(image-assets-page-4/strap-1-image-hover.webp);
+    transform: scale(1.01);
+    transition: transform 0.3s ease; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.strap-1-info,.strap-2-info,.strap-3-info,.strap-4-info,.strap-5-info,.strap-6-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.strap-1-info,.strap-2-info,.strap-3-info,.strap-4-info,.strap-5-info,.strap-6-info h3{
+    color: #4f4f4f;
+}
+
+.strap-1-info,.strap-2-info,.strap-3-info,.strap-4-info,.strap-5-info,.strap-6-info>h3{
+    padding-top: 5px;
+}
+
+.strap-1-info>h3:hover{
+    text-decoration: underline;
+}
+
+.strap-1-info p{
+    color: #7f7f7f;
+}
+
+.price-addtocart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-addtocart h3{
+    padding-top: 5px;
+    cursor: auto;
+}
+
+.price-addtocart button{
+    border-radius: 50px;
+    background: #2a5ddb;
+    font-family: GeneralSans-Variable;
+    font-size: 16px;
+    font-weight: 550;
+    line-height: 18px;
+    text-align: center;
+    color: #f4f1ed;
+    padding: 5px 22px;
+    border: 0px;
+    box-shadow: none;
+    cursor: pointer;
+}
+/* ----------------------------------------------------------------------------------- */
+
+.strap-2-image{
+   height: 75%;
+   background-image: url(image-assets-page-4/strap-2.webp);
+   background-position: center;
+   background-size: cover;
+}
+
+.strap-2-image:hover{
+    background-image: url(image-assets-page-4/strap-2-image-hover.webp);
+    transform: scale(1.01);
+    transition: transform 0.3s ease; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.strap-2-info>h3:hover{
+    text-decoration: underline;
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+
+
+.strap-3-image{
+   height: 75%;
+   background-image: url(image-assets-page-4/strap-3.webp);
+   background-position: center;
+   background-size: cover;
+}
+
+.strap-3-image:hover{
+    background-image: url(image-assets-page-4/strap-3-image-hover.webp);
+    transform: scale(1.01);
+    transition: transform 0.3s ease; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.strap-3-info>h3:hover{
+    text-decoration: underline;
+}
+
+.strap-3-info p{
+    color: #7f7f7f;
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+
+
+.strap-4-image{
+   height: 75%;
+   background-image: url(image-assets-page-4/strap-4.webp);
+   background-position: center;
+   background-size: cover;
+}
+
+.strap-4-image:hover{
+    background-image: url(image-assets-page-4/strap-4-image-hover.webp);
+    transform: scale(1.01);
+    transition: transform 0.3s ease; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.strap-4-info>h3:hover{
+    text-decoration: underline;
+}
+
+.strap-4-info p{
+    color: #7f7f7f;
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+
+
+.strap-5-image{
+   height: 75%;
+   background-image: url(image-assets-page-4/strap-5.webp);
+   background-position: center;
+   background-size: cover;
+}
+
+.strap-5-image:hover{
+    background-image: url(image-assets-page-4/strap-5-image-hover.webp);
+    transform: scale(1.01);
+    transition: transform 0.3s ease; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.strap-5-info>h3:hover{
+    text-decoration: underline;
+}
+
+.strap-5-info p{
+    color: #7f7f7f;
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+
+
+.strap-6-image{
+   height: 75%;
+   background-image: url(image-assets-page-4/strap-6.webp);
+   background-position: center;
+   background-size: cover;
+}
+
+.strap-6-image:hover{
+    transform: scale(1.01);
+    transition: transform 0.3s ease; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.strap-6-info>h3:hover{
+    text-decoration: underline;
+}
+
+.strap-6-info p{
+    color: #7f7f7f;
+}
+

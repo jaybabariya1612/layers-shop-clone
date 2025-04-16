@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin-top: 75px;
+}
+
+.privacy-policy-main {
+  padding: 84px 50px;
+}
+
+.privacy-policy-notice-date ul li {
+  list-style: none;
+}
+
+.privacy-policy-main-heading {
+  margin-bottom: 4rem;
+  font-size: 30px;
+  color: #0c1c33;
+}
+
+.privacy-policy-notice-date{    
+    color: #495566;
+}
+
+.privacy-policy-notice-date ul li{
+    padding: 10px 0px;
+}
+.privacy-policy-notice-date{
+    font-size: 18.5px;
+    line-height: 25px;
+    font-weight: 500;
+    padding-top: 10px;
+    margin: 0px;
+}

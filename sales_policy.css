@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    margin-top:75px ;
+}
+
+.sales-policy-main{
+    padding: 84px 50px;
+}
+
+h1,h3{
+    color: #0c1c33;
+    padding: 15px 0px;
+}
+
+main p{
+    font-size: 25px;
+    padding: 10px 0px;
+}
+span p,p span{
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+table{
+    border-spacing: 0px;
+}
+
+td{
+    border: 1px solid #ced2d6;
+    text-align: justify;
+    font-size: 25px;
+    padding: 20px 35px;
+    
+}
+
+.sales-policy-main span,p,a,table,ol,u,.sales-policy-main-info span p,.sales-policy-main-info p span{
+    color: #495566;
+    font-weight: 400;
+}
+
+ol li{
+    list-style: none;
+}
+.sales-policy-main-heading{
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.sales-policy-main-heading h1{
+    font-size: 50px;
+}

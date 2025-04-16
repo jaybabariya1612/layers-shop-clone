@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    margin-top: 75px;
+}
+
+.terms-of-use-main{
+    padding:84px 50px
+}
+
+.terms-of-use-main-info ul{
+    list-style: disc;
+    padding-left: 15px;
+}
+
+.terms-of-use-main-info li{
+    padding: 10px 0px;
+}
+
+.terms-of-use-main-heading{
+    font-size: 25px;
+    color: #0c1c33;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+.terms-of-use-main ol,b,li,a{
+    color: #495566;
+}
+
+.terms-of-use-main ol li span{
+    color: #495566;
+}
+

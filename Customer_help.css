@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.customer-help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 75px;
+  padding: 200px 50px;
+}
+
+.customer-help > h1 {
+  font-size: 65px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  color: #0c1c33;
+}
+
+.customer-help-box {
+  max-width: 520px;
+  padding: 4rem;
+  border: 2px solid #294b7a;
+  margin: auto;
+  background: #f6f6f7;
+  border-radius: 10px;
+}
+
+.customer-help-box h1,p,.customer-help-button{
+    padding: 10px 0px;
+}
+
+.customer-help-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.customer-help-button .login {
+  background: #0c1c33;
+  padding: 8px 20px;
+  color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  border: 2px solid #0c1c33;
+  transition: 0.2s;
+}
+
+.customer-help-button .track-order {
+  background: #fff;
+  padding: 8px 20px;
+  color: #0c1c33;
+  border-radius: 50px;
+  text-decoration: none;
+  border: 2px solid #0c1c33;
+  transition: 0.2s;
+}
+
+.create-account-details span{
+  color: red;
+}

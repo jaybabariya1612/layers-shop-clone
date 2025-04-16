@@ -1,0 +1,537 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#Gallery,#Features {
+  padding-top: 100px; /* Adjust based on your header height */
+  margin-top: -100px; /* Negative margin to offset the padding */
+}
+
+
+.links li:nth-child(3) a {
+  text-decoration: underline;
+}
+
+.anarc-watch-main {
+  margin-top: 80px;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.watch-info-scroll {
+  width: 70%;
+  height: 47px;
+  background-color: #081323;
+  padding: 0 0px;
+  position: fixed;
+}
+
+.watch-info-scroll ul {
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+}
+
+.watch-info-scroll ul li {
+  list-style: none;
+  padding: 14px 10px 10px;
+}
+
+.watch-info-scroll ul li:hover {
+  border-bottom: 5px solid #2a5ddb;
+  color: white;
+}
+
+.watch-info-scroll ul li a {
+  text-decoration: none;
+}
+
+.watch-info-scroll ul li a span {
+  color: #70839e;
+}
+
+.watch-info-scroll ul li a span:hover {
+  color: white;
+}
+
+.watch-image img {
+  width: 100%;
+  padding-top: 15px;
+}
+
+.anarc-watch-left {
+  width: 70%;
+}
+
+.anarc-watch-right {
+  position: fixed;
+  right: 0;
+  padding: 30px;
+  width: 30%;
+  background-color: #0c1c33;
+  height: 100vh;
+}
+
+.anarc-watch-right a {
+  text-decoration: none;
+}
+
+.anarc-watch-right h1 {
+  color: white;
+  padding-top: 50px;
+  font-size: 45px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.price p:nth-child(1) {
+  padding-top: 15px;
+}
+
+.price p {
+  color: #c2c6cc;
+  font-size: 20px;
+}
+
+.price h3 {
+  color: white;
+  font-size: 25px;
+}
+
+.price h3 del {
+  color: #89807c;
+}
+
+.emi a span {
+  border: 1px solid white;
+  font-size: 14px;
+  color: white;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.emi a {
+  display: flex;
+  gap: 5px;
+}
+
+.emi a span b {
+  color: #4ceb85;
+}
+
+.emi img {
+  height: 20px;
+}
+
+.option-color-addtocart {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.option-color-addtocart p {
+  color: #70839e;
+  font-size: 18px;
+  padding-top: 35px;
+}
+
+.watch-color {
+  display: flex;
+  gap: 15px;
+}
+
+.Frost-Blaze {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #e6e3dd;
+  border-radius: 50%;
+  text-decoration: none;
+  border: 2px solid #c8c5c6;
+}
+
+.Dark-Brilliance {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #3c3835;
+  border-radius: 50%;
+  text-decoration: none;
+  border: 2px solid #737373;
+}
+
+.Earthy-Urban {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #536059;
+  border-radius: 50%;
+  text-decoration: none;
+  border: 2px solid #c9c7c7;
+}
+
+.option-color-addtocart button {
+  background: #2a5ddb;
+  font-size: 16.08px;
+  font-weight: 550;
+  line-height: 21.71px;
+  color: #f4f1ed;
+  text-align: center;
+  width: 220px;
+  padding: 10px;
+  border: 0;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.option-color-addtocart button:hover {
+  border: 1px solid white;
+}
+
+.bottom-info p {
+  color: #c2c6cc;
+  font-size: 20px;
+}
+
+.bottom-info p:nth-child(1) {
+  padding-top: 30px;
+}
+
+.bottom-info h3 {
+  color: white;
+  padding-top: 20px;
+}
+
+.bottom-info p:nth-child(3) {
+  padding-top: 15px;
+}
+.bottom-info p a {
+  color: white;
+}
+
+.section-2-anarc-watch{
+  width: 70%;
+  background-color: #0c1c33;
+}
+
+.section-2-anarc-watch img{
+    width: 100%; 
+    object-fit: cover;
+}
+
+
+.section-3-anarc-watch{
+  width: 70%;
+  background-color: #0c1c33;
+  padding-left: 150px;
+  padding-right: 50px;  
+}
+
+.section-3-heading{
+  padding-top: 100px;
+  font-size: 65px;
+  font-weight: bold;
+  color: #f4f1ed;
+}
+
+.section-3-anarc-watch img{
+  height: 130px;
+}
+
+.section-3-watch-images-upper{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+
+
+.section-3-watch-images-bottom{
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.section-3-heading-bottom{
+  color: #f4f1ed;
+  padding-top: 75px;
+  font-size: 25px;
+}
+
+.mask-group-images{
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.section-4-anarc-watch{
+  width: 70%;
+  display: flex;
+  background-color: #0c1c33;
+  padding-left: 150px;
+  padding-right: 50px;  
+}
+
+.section-4-anarc-watch-left{
+  width: 50%;
+}
+.section-4-anarc-watch-left-upper-info{
+  color: white;
+  font-weight: bold;
+}
+
+.section-4-anarc-watch-left-upper-info img{
+  padding-top: 0px;
+}
+
+.section-4-anarc-watch-left-upper-info h1{
+  font-size: 50px;
+  padding-top: 10px;
+}
+
+.section-4-anarc-watch-left-upper-info p{
+  padding-top: 20px;
+}
+
+.section-4-anarc-watch-left-bottom-info{
+  color: #ecc539;
+  padding-top: 80px;
+}
+
+.section-4-anarc-watch-left-bottom-info p{
+  padding-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.section-4-anarc-watch-right{
+  width: 50%;
+}
+
+.section-4-anarc-watch-right img{
+  height: 430px;
+}
+
+.section-5-anarc-watch-bg-image{
+  background-image: url(image-assets/sec-5-img-1.webp);
+  width: 100%;
+  height:100vh;
+  background-position: center;
+  background-size: cover; 
+  color: white;
+}
+
+.section-5-anarc-watch-bg-image h1:first-of-type{
+  padding-top: 200px;
+}
+
+.section-5-anarc-watch-bg-image h1{
+  font-size: 50px;
+}
+
+.section-5-anarc-watch-bg-image >h1{
+  padding-left: 200px;
+ }
+
+.section-5-anarc-watch-bg-image >p{
+  padding-left: 200px;
+ }
+
+.section-6-anarc-watch{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  /* height: 100vh; */
+  padding-left: 150px;
+  padding-right: 50px;  
+  background-color: #0c1c33;
+}
+
+.section-6-anarc-watch-upper{
+  /* height: 500px; */
+  width: 100%;
+  display: flex;
+}
+
+.section-6-anarc-watch-upper-left{
+  width: 70%;
+  color: white;
+}
+
+.section-6-anarc-watch-upper-left h1{
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.section-6-anarc-watch-upper-left p{
+  /* font-size: 50px; */
+  padding-top: 15px;
+}
+
+.section-6-anarc-watch-upper-right{
+  width: 30%;
+  color: #ecc539 ;
+  padding-top: 100px;
+}
+
+.section-6-anarc-watch-upper-right p{
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+
+.section-6-anarc-watch-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-6-anarc-watch-bottom img{
+  height: 600px;
+}
+
+.section-7-anarc-watch{
+  width: 70%;
+  background-color: #0c1c33;
+}
+
+.section-7-anarc-watch img{
+    width: 100%; 
+    object-fit: cover;
+}
+
+.section-8-anarc-watch{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 70%;
+  background-color: #0c1c33;
+  color: white;
+}
+
+.section-8-anarc-watch-top{
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-right: 50px;  
+}
+
+.section-8-anarc-watch-top h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.section-8-anarc-watch-top p{
+  font-size: 20px;
+}
+
+.section-8-anarc-watch-bottom{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.section-8-anarc-watch-bottom img{
+  height: 320px;
+}
+
+.section-9-anarc-watch{
+  width: 70%;
+}
+
+.section-9-anarc-watch img{
+    width: 100%; 
+    object-fit: cover;
+}
+
+.section-11-anarc-watch{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  background-color: #f4f1ed;
+}
+
+.section-11-anarc-watch-left{
+  width: 100%;
+  padding: 50px;
+}
+
+.section-11-anarc-watch-left ul .testing-item{
+  list-style: none;
+    padding: 0;
+    margin-top: 38px;
+    display: grid;
+    gap: 20px;
+}
+
+.section-11-anarc-watch-left h2 .testing-heading {
+  font-family: Aeonik-Bold;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: .01em;
+  text-align: left;
+  margin: 0;
+}
+
+.section-11-anarc-watch-left p .testing-content {
+  font-family: GeneralSans-Variable;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 21.6px;
+  letter-spacing: .01em;
+  text-align: left;
+  margin: 0;
+  padding-top: 14px;
+  color: #89807c;
+}
+
+.section-11-anarc-watch-right{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.section-11-anarc-watch-right img{
+  height: 600px;
+}
+
+.section-12-anarc-watch{
+  width: 70%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.section-12-anarc-watch h2{
+  color: #0c1c33;
+  font-size: 35px;
+padding: 30px 0px;
+}
+
+.section-12-anarc-watch ul{
+  padding-bottom: 40px;
+}
+
+.section-12-anarc-watch ul li{
+  margin-bottom: 2px;
+  font-family:GeneralSans-Variable;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #89807c;
+  margin-bottom: 2px;
+  letter-spacing: 0px;
+}
+
+.section-12-anarc-watch ul .Disclaimer-item{
+  list-style: number;
+}
