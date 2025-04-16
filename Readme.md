@@ -82,5 +82,3 @@ This is a **frontend-only** clone project created for educational and portfolio 
 Created by JAY BABARIYA – feel free to connect!
 
 ---
-
-Let me know if you'd like to add a live demo link, GitHub Pages deployment, or screenshots!
